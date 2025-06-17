@@ -19,7 +19,7 @@ export default function Profile() {
     <div className="hidden lg:flex flex-col mt-14 ml-10 w-full space-y-4">
       {/* Warning Message - always visible */}
       <div className="text-sm text-yellow-800 bg-yellow-100 border-l-4 border-yellow-400 p-3 rounded">
-        ⚠️ Note: Comment posting may take a few seconds or occasionally fail. This is because I'm using a custom LSTM-based model deployed on Render to detect toxic comments, which can experience cold starts or latency. If your comment doesn’t appear immediately, please wait a moment or try submitting again.
+        ⚠️ Note: Comment posting may take a few seconds or occasionally fail. This is because I&apos;m using a custom LSTM-based model deployed on Render to detect toxic comments, which can experience cold starts or latency. If your comment doesn&apos;t appear immediately, please wait a moment or try submitting again.
       </div>
 
       {/* Main Profile Section */}
